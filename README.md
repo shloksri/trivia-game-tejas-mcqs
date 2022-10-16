@@ -1,3 +1,17 @@
+# JSON Server
+
+Step 1: Install the json server first
+
+npm install -g json-server
+
+Step 2: Run the server on a different port
+
+json-server -p 4000 data.json
+
+# Execution policies
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

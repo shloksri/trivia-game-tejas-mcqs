@@ -10,3 +10,18 @@
 .questionTitle {
   font-size: 20px;
 }
+
+.sticky {
+  position: sticky;
+  align-items: right;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 50px;
+  background-color: yellow;
+  color: black;
+}
+
+.toDisplay {
+  visibility: hidden;
+}

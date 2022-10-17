@@ -1,47 +1,47 @@
 [
   {
     "num": 1,
-    "question": "Who is the best footballer of all time?",
+    "question": "Who has played the most number of games with Barcelona?",
     "a": "Lionel Messi",
-    "b": "Cristiano Ronaldo",
-    "c": "Luka Modric",
-    "d": "Luis Suarez",
+    "b": "Andres Inista",
+    "c": "Xavi Hernandez",
+    "d": "Sergi Roberto",
     "answer": "a"
   },
   {
     "num": 2,
-    "question": "Who is the best footballer of all time?",
-    "a": "Lionel Messi",
-    "b": "Cristiano Ronaldo",
-    "c": "Luka Modric",
-    "d": "Luis Suarez",
-    "answer": "a"
+    "question": "Who is the most the successful manager of Barcelona?",
+    "a": "Johan Cryuff",
+    "b": "Ernesto Valvarde",
+    "c": "Pep Guardiola",
+    "d": "Rijkaard",
+    "answer": "c"
   },
   {
     "num": 3,
-    "question": "Who is the best footballer of all time?",
-    "a": "Lionel Messi",
-    "b": "Cristiano Ronaldo",
-    "c": "Luka Modric",
-    "d": "Luis Suarez",
-    "answer": "a"
+    "question": "Who has the most world cups in his name?",
+    "a": "Diego Maradona",
+    "b": "Ronaldinho",
+    "c": "Zinedine Zidane",
+    "d": "Pele",
+    "answer": "d"
   },
   {
     "num": 4,
-    "question": "Who is the best footballer of all time?",
+    "question": "Who won the Ballon D'or in 2022?",
     "a": "Lionel Messi",
-    "b": "Cristiano Ronaldo",
+    "b": "Karim Benzema",
     "c": "Luka Modric",
-    "d": "Luis Suarez",
-    "answer": "a"
+    "d": "Cristiano Ronaldo",
+    "answer": "b"
   },
   {
     "num": 5,
-    "question": "Who is the best footballer of all time?",
+    "question": "Who is the most famous footballer on Instagram?",
     "a": "Lionel Messi",
-    "b": "Cristiano Ronaldo",
-    "c": "Luka Modric",
-    "d": "Luis Suarez",
+    "b": "Paul Pogba",
+    "c": "Kylian Mbappe",
+    "d": "Cristiano Ronaldo",
     "answer": "a"
   }
 ]

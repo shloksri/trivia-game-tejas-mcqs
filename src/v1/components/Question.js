@@ -19,8 +19,53 @@
  * Then we can create a button with either a surprise answer or a dummy April fool.
  */
 
-import React from "react";
+import React, { useEffect } from "react";
 
-export const Question = () => {
-  return <div>Questions Start here</div>;
+const Question = ({
+  item,
+  increaseScore,
+  selectedOption,
+  changOption,
+  handleSubmit,
+  setThisAnswer,
+}) => {
+  return (
+    <div>
+      <p className="questionTitle">
+        <strong> Q{item.num}: &nbsp;</strong>
+        {item.question}
+      </p>
+      <br />
+      <p>Selected Option: {selectedOption}</p>
+      <form onSubmit={handleSubmit}>
+        <label>
+          <input type="radio" value="a" checked={selectedOption === "a"} onChange={changOption} />
+          <strong>Option A:</strong>
+          &nbsp;{item.a}
+        </label>
+        <br />
+        <label>
+          <input type="radio" value="b" checked={selectedOption === "b"} onChange={changOption} />
+          <strong>Option B:</strong>
+          &nbsp;{item.b}
+        </label>
+        <br />
+        <label>
+          <input type="radio" value="c" checked={selectedOption === "c"} onChange={changOption} />
+          <strong>Option C:</strong>
+          &nbsp;{item.c}
+        </label>
+        <br />
+        <label>
+          <input type="radio" value="d" checked={selectedOption === "d"} onChange={changOption} />
+          <strong>Option D:</strong>
+          &nbsp;{item.d}
+        </label>
+        <br />
+        <button type="submit">Proceed</button>
+      </form>
+    </div>
+  );
 };
+
+export default Question;
